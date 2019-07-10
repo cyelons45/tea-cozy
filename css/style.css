@@ -191,7 +191,8 @@ nav ul li a:hover{
 .cap img:hover{
     opacity: 1.0;
     -webkit-transform: scale(1.0);
-            transform: scale(1.0)  
+            transform: scale(1.0) ;
+
 }
 
 .section-tea__exactbox{
@@ -321,11 +322,14 @@ SECTION LOCATIONS */
 
 .add{
     height: 100%;
+    border: 1px solid transparent;
     -webkit-transform: scale(1.0);
             transform: scale(1.0);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     color: seashell;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 
@@ -336,6 +340,7 @@ SECTION LOCATIONS */
     -webkit-transform: scale(1.03);
             transform: scale(1.03);
     color: orangered;
+    border: 1px solid orangered;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
 }
@@ -809,6 +814,7 @@ nav ul li{
    float: none; 
    list-style: none;
    margin: 1px auto;
+   border-bottom:1px solid seashell;
  
 } 
 

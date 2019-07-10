@@ -12,3 +12,5 @@ document.querySelector('#navi').addEventListener('click',function(e){
     })
        clicked.style.color='red'
 })
+
+
